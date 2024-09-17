@@ -13,9 +13,9 @@ function ProjectsContextProvider({ children }) {
 
     useEffect(() => {
         const filterProjects = ({ data: projects }) => {
-            const blocklist = [498630211];
-            return projects.filter(({ archived, disabled, fork, id }, idx) => {
-                if (!archived && !disabled && !fork && !blocklist.includes(id)) {
+            const blocklist = ['.github', 'zero-savvy.github.io', 'zero-savvy', 'portfo'];
+            return projects.filter(({ archived, disabled, fork, id, name }, idx) => {
+                if (!archived && !disabled && !fork && !blocklist.includes(name)) {
                     return true;
                 }
                 return false;
@@ -24,7 +24,7 @@ function ProjectsContextProvider({ children }) {
 
         const fetchProjects = () => {
             try {
-                axios.get('https://api.github.com/orgs/open-xyz/repos').then(res => {
+                axios.get('https://api.github.com/orgs/zero-savvy/repos').then(res => {
                     setProjects(filterProjects(res));
                     setLoading(false);
                 });
