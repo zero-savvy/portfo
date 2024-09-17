@@ -8,8 +8,8 @@ function Home() {
     return (
         <>
             <MainBody />
-            <Technologies />
             <Projects />
+            <Technologies />
             <AboutUs />
             {/* <Admins /> */}
         </>

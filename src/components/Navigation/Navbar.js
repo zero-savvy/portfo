@@ -29,18 +29,18 @@ function Navbar() {
         >
             <div id="nav-title">
                 <a href="#home" id="nav-title-link">
-                    {'<OpenXYZ/>'}
+                    {'<Zero-Savvy/>'}
                 </a>
             </div>
             <div className="navbar-toggle" onClick={() => setShow(prev => !prev)}>
                 <FontAwesomeIcon icon={faBars} />
             </div>
             <nav className="nav">
-                <a href="#technologies" className="nav-link">
-                    Technologies
-                </a>
                 <a href="#projects" className="nav-link">
                     Projects
+                </a>
+                <a href="#technologies" className="nav-link">
+                    Technologies
                 </a>
                 <a href="#aboutus" className="nav-link">
                     About
