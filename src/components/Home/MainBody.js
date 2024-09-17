@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './mainBody.scss';
 
 function MainBody() {
@@ -23,7 +23,7 @@ function MainBody() {
                 </article>
                 <article className="linkedin social-icon">
                     <a href="linkedin.com/company/zero-savvy" className="social-icon-link">
-                        <FontAwesomeIcon icon={faLinkedIn} className="icon" />
+                        <FontAwesomeIcon icon={faLinkedin} className="icon" />
                     </a>
                 </article>
             </div>
