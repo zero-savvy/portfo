@@ -34,6 +34,6 @@ jobs:
           cd deploy-repo
           git add .
           git commit -m "Deploy website from protfo"
-          git push origin master
+          git push origin gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token for authentication
