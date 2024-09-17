@@ -1,4 +1,3 @@
-import { faSquare } from '@fortawesome/free-solid-svg-icons';
 import './aboutUs.scss';
 
 function AboutUs() {
