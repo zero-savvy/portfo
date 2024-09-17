@@ -12,18 +12,18 @@ function MainBody() {
             <div className="socials">
                 
                 <article className="twitter social-icon">
-                    <a href="https://twitter.com/openxyz_" className="social-icon-link">
+                    <a href="https://twitter.com/zero_savvy" className="social-icon-link">
                         <FontAwesomeIcon icon={faTwitter} className="icon" />
                     </a>
                 </article>
                 <article className="github social-icon">
-                    <a href="https://github.com/open-xyz" className="social-icon-link">
+                    <a href="https://github.com/zero-savvy" className="social-icon-link">
                         <FontAwesomeIcon icon={faGithub} className="icon" />
                     </a>
                 </article>
-                <article className="telegram social-icon">
-                    <a href="https://discord.gg/tdDWfPWF" className="social-icon-link">
-                        <FontAwesomeIcon icon={faDiscord} className="icon" />
+                <article className="linkedin social-icon">
+                    <a href="linkedin.com/company/zero-savvy" className="social-icon-link">
+                        <FontAwesomeIcon icon={faLinkedIn} className="icon" />
                     </a>
                 </article>
             </div>
