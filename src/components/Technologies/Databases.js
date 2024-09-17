@@ -6,67 +6,62 @@ function Databases({ active }) {
             <div className="tab-panel-content">
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/color/100/null/mongodb.png"
-                        alt="mongodb"
+                        src="https://img.icons8.com/?size=100&id=tZpfUsCnSsbj&format=png&color=000000"
+                        alt="Bitcoin"
                     />
-                    <p>MongoDB</p>
+                    <p>Bitcoin</p>
                 </div>
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/ios/100/null/heroku.png"
-                        alt="heroku"
+                        src="https://img.icons8.com/?size=100&id=100818&format=png&color=000000"
+                        alt="Ethereum"
                     />
-                    <p>Heroku</p>
+                    <p>Ethereum</p>
                 </div>
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/ios/100/null/mysql-logo.png"
-                        alt="mysql"
+                        src="https://img.icons8.com/?size=100&id=7QgGjOrGgWQa&format=png&color=000000"
+                        alt="EVM"
                     />
-                    <p>MySQL</p>
+                    <p>EVM</p>
                 </div>
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/100/null/external-redis-an-in-memory-data-structure-project-implementing-a-distributed-logo-bold-tal-revivo.png"
-                        alt="redis"
+                        src="https://img.icons8.com/?size=100&id=LhueiMPUoxw4&format=png&color=000000"
+                        alt="Polygon"
                     />
-                    <p>Redis</p>
+                    <p>Polygon</p>
                 </div>
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/ios/100/null/docker.png"
-                        alt="docker"
+                        src="https://img.icons8.com/?size=100&id=Hwt1cYEVXpuE&format=png&color=000000"
+                        alt="Cosmos"
                     />
-                    <p>Docker</p>
+                    <p>Cosmos</p>
                 </div>
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/color/100/null/azure-1.png"
-                        alt="azure"
+                        src="https://img.icons8.com/?size=100&id=vcnG8K0MxaDs&format=png&color=000000"
+                        alt="PolkaDot"
                     />
-                    <p>Azure</p>
+                    <p>PolkaDot</p>
                 </div>
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/ios/100/null/postgreesql.png"
-                        alt="postgresql"
+                        src="https://img.icons8.com/?size=100&id=xnZMZXqLEDk1&format=png&color=000000"
+                        alt="Cardano"
                     />
-                    <p>PostgreSQL</p>
-                </div>
+                    <p>Cardano</p>
+                </div>                
                 <div className="tab-panel-content-item">
                     <img
-                        src="https://img.icons8.com/wired/100/null/postman-api.png"
-                        alt="postman"
+                        src="https://img.icons8.com/?size=100&id=NgbFFSOCkrnB&format=png&color=000000"
+                        alt="Solana"
                     />
-                    <p>Postman</p>
+                    <p>Solana</p>
                 </div>
-                <div className="tab-panel-content-item last-item">
-                    <img
-                        src="https://img.icons8.com/fluency/100/null/google-cloud.png"
-                        alt="google cloud"
-                    />
-                    <p>Google Cloud</p>
-                </div>
+
+                
             </div>
         </div>
     );

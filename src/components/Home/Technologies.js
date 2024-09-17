@@ -24,7 +24,7 @@ function Technologies() {
                                 }`}
                                 onClick={() => setCurrentTab('langs')}
                             >
-                                Languages &amp; Tools
+                                Languages &amp; Frameworks
                             </button>
                         </li>
                         <li className="tab-item" role="presentation">
@@ -37,7 +37,7 @@ function Technologies() {
                                 }`}
                                 onClick={() => setCurrentTab('dbs')}
                             >
-                                Databases &amp; DevOps
+                                Compatible Infrastructures/Blockchains
                             </button>
                         </li>
                     </ul>
