@@ -9,29 +9,28 @@ function Footer() {
                 <div className="footer-title">Get In Touch</div>
                 <div className="footer-content">
                     <p className="footer-content__about">
-                        We're currently looking for more open source project ideas and
-                        more developers who can work with us. If you have an idea or you
-                        wanna work with us, if you have any questions, or if you just want
-                        to say hi, please feel free to contact via{' '}
+                        Feel free to get in touch via {' '}
                         <a
-                            href="https://twitter.com/openxyz_/"
+                            href="https://twitter.com/zero_savvy/"
                             className="footer-content__email link"
                         >
-                            twitter
+                            twitter/X 
+                        </a>{' '}
+                        or via {' '}
+                        <a
+                            href="https://linkedin.com/company/zero-savvy/"
+                            className="footer-content__email link"
+                        >
+                            LinkedIn 
                         </a>
                         .
                     </p>
                     <div className="footer-developer-info">
-                        Developed by{' '}
                         <a
-                            href="https://github.com/rohansx"
+                            href="https://github.com/zero-savvy"
                             className="footer-developer-info__link link"
                         >
-                            Rohan
-                        </a>{' '}
-                        using{' '}
-                        <a href="https://reactjs.org" className="link">
-                            <FontAwesomeIcon icon={faReact} />
+                            Zero-Savvy
                         </a>
                     </div>
                     {/* <p className="footer-content-end">

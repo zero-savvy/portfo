@@ -6,8 +6,8 @@ function MainBody() {
     return (
         <section id="home">
             <div className="text-center">
-                <h1 className="title">OpenXYZ</h1>
-                <p className="typist">Nobody can stop Information Insemination</p>
+                <h1 className="title">Zero-Savvy</h1>
+                <p className="typist">It take zero-knowledge to be a savvy, savvy?</p>
             </div>
             <div className="socials">
                 

@@ -37,7 +37,7 @@ function Projects() {
     return (
         <section id="projects">
             <div className="projects-container">
-                <h1 className="projects-title">Recent Projects</h1>
+                <h1 className="projects-title">Main Projects</h1>
                 <div className="projects-list">
                     {projects &&
                         getPaginatedData().map((project, idx) => (
