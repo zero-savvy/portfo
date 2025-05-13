@@ -31,6 +31,32 @@
             text-align: center;
         }
 
+        .projects-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            .sort-select {
+                padding: 0.5rem 1rem;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                background-color: white;
+                font-size: 0.9rem;
+                cursor: pointer;
+                transition: border-color 0.2s;
+
+                &:hover {
+                    border-color: #999;
+                }
+
+                &:focus {
+                    outline: none;
+                    border-color: #666;
+                }
+            }
+        }
+
         .projects-list {
             display: flex;
             flex-wrap: wrap;
