@@ -12,7 +12,7 @@ function ProjectsContextProvider({ children }) {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const filterProjects = ({ data: projects }) => {
+        const filterProjects = (projects) => {
             const blocklist = ['.github', 'zero-savvy.github.io', 'zero-savvy', 'portfo'];
             return projects.filter(({ archived, disabled, fork, id, name }, idx) => {
                 if (!archived && !disabled && !fork && !blocklist.includes(name)) {
@@ -24,10 +24,13 @@ function ProjectsContextProvider({ children }) {
 
         const fetchProjects = () => {
             try {
-                axios.get('https://api.github.com/orgs/zero-savvy/repos').then(res => {
-                    setProjects(filterProjects(res));
-                    setLoading(false);
+                axios.get('https://api.github.com/orgs/zero-savvy/repos').then(zeroSavvyProjects => {
+                    axios.get('https://api.github.com/orgs/worm-privacy/repos').then(wormProjects => {
+                        setProjects(filterProjects(zeroSavvyProjects['data'].concat(wormProjects['data'])));
+                        setLoading(false);
+                    });
                 });
+                
             } catch (err) {
                 setLoading(false);
             }
